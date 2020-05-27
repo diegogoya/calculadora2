@@ -7,7 +7,7 @@ export default ()=>(
 	<div>
 		<Header/>
 		<BarraTitulo/>
-		<h1 style={{textAlign:"Center"}}>Cursos del plan</h1>
+		<h1 style={{textAlign:"Center"}}>Cursos del plan de Natalia</h1>
 		<div style={{display:"flex", justifyContent:"space-around"}}>
 			<ClaseComponent nombre ="Matematicas" clase={matematica}/>
 			<ClaseComponent nombre ="Ciencias" clase={ciencia}/>

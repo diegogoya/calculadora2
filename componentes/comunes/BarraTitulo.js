@@ -9,7 +9,7 @@ const links = [
 export default ()=>(
 	  <nav>
     <div className="nav-wrapper">
-      <a href="/" className="brand-logo">Curso de Next.Js y React</a>
+      <a href="/" className="brand-logo">   La calculadora de Natalia</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
       		{
       			links.map(link=>{
